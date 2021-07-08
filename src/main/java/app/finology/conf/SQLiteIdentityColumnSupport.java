@@ -16,7 +16,7 @@ public class SQLiteIdentityColumnSupport extends IdentityColumnSupportImpl {
 
     @Override
     public String getIdentitySelectString(String table, String column, int type)
-            throws MappingException {
+        throws MappingException {
         return "select last_insert_rowid()";
     }
 

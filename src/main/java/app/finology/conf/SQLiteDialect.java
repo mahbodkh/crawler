@@ -4,6 +4,7 @@ import org.hibernate.dialect.Dialect;
 import org.hibernate.dialect.identity.IdentityColumnSupport;
 
 import java.sql.Types;
+
 /**
  * Created by Ebrahim Kh.
  */

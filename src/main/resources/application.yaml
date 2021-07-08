@@ -1,0 +1,9 @@
+#====================================================
+#         spring application properties
+#====================================================
+server:
+  port: 8085
+
+spring:
+  application:
+    name: FINOLOGY
